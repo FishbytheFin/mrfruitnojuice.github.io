@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skin2Totem</title>
+	<link rel = "icon" type = "image/png" href = "images/totem1.png">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Convert your minecraft skin into a texture for the totem of undying">
+	<meta name="keywords" content="Minecraft, Texture, Undying, Totem, Skin2Totem">
+	<meta name="author" content="MrFruit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<style>
+  		article, aside, figure, footer, header, hgroup, 
+  		menu, nav, section { display: block; }
+	</style>
+</head>
+<body>
+	<div id="spacer1"></div>
+	<label for="version">Version:</label>
+
+	<select name="version" id="version">
+	  <option value="3">1.11-1.12</option>
+	  <option value="4">1.13-1.14</option>
+	  <option value="5">1.15-1.16.1</option>
+	  <option value="6">1.16.2</option>
+	</select>
+	<div></div>
+	<p id="textOutput"></p>
+	<input type="file" id="skin" accept=".jpg, .jpeg, .png" multiple size="50">	
+	<canvas id="skinCanvas"></canvas>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
