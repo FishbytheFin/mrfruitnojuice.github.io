@@ -1,12 +1,12 @@
 const audio = new Audio('sounds/calculating_noise.mp3'); 
 
 const verb_list1 = ['end your life', 'shut up', 'kill your self'];
-const verb_list2 = ['go eat a', 'suck a', 'consume a'];
+const verb_list2 = ['go eat a', 'suck a', 'consume a', 'rub a'];
 const nsfwverb_list1 = ['sit n\' spin', 'go fuck yourself'];
-const adj = ['gay', 'dumb', 'stupid'];
-const nouns = ['cheese', 'pickle', 'idiot', 'baby'];
-const nsfwnouns = ['shitbrain', 'cockwaffle'];
-const NSFWadj = ['cum-filled', 'dick-like']
+const adj = ['gay', 'dumb', 'stupid', 'retarded', 'mundane', 'vapid', 'repugnant', 'unkept'];
+const nouns = ['cheese', 'pickle', 'idiot', 'baby', 'loser', 'nerd', 'dweeb', 'virgin'];
+const nsfwnouns = ['shitbrain', 'cockwaffle', 'dick', 'ass-face', 'simp', 'slut', 'whore'];
+const NSFWadj = ['cum-filled', 'dick-like', 'shit-headed', 'ass-brained', 'slutty', 'damned']
 let insult;
 var noun;
 var isverb2;
